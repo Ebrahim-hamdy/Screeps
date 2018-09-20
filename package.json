@@ -27,7 +27,7 @@
 		"grunt-contrib-copy": "^1.0.0",
 		"grunt-contrib-watch": "^1.1.0",
 		"grunt-screeps": "latest",
-		"lodash": "~3.10",
+		"lodash": "~4.17.5",
 		"time-grunt": "^1.4.0",
 		"uglify-es": "latest"
 	}
