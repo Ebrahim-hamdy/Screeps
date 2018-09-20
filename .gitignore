@@ -1,0 +1,8 @@
+/node_modules/
+/credentials.json
+*.sublime-workspace
+/ScreepsAutocomplete/
+/dist/
+*.sublime-grunt.cache
+/.idea
+dist.map
