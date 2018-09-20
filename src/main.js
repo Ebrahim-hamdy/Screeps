@@ -1,5 +1,6 @@
 import roles from "shared.roles";
 import worker from "shared.worker";
+import tower from "control.tower";
 
 
 export function loop () {
@@ -36,5 +37,8 @@ export function loop () {
 		let creep = Game.creeps[i];
 		roles[creep.memory.role].run(creep);
 	}
+
+	// Run towers per tower
+	tower.getTowers().forEach( tower => tower.run(tower) );
 
 }
