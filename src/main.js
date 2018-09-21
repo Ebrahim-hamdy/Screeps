@@ -39,6 +39,6 @@ export function loop () {
 	}
 
 	// Run towers per tower
-	tower.getTowers().forEach( tower => tower.run(tower) );
+	tower.getTowers().forEach( currTower => tower.run(currTower) );
 
 }
